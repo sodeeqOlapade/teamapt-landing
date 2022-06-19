@@ -1,0 +1,11 @@
+.campaign-landing {
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 4vw;
+  overflow-x: hidden;
+  background-size: cover;
+  background: url("/assets/images/stars.png") no-repeat center 400px, 
+              url("/assets/images/coin_pot.svg") no-repeat center 750px fixed, 
+              url("/assets/images/sun_beam.svg") no-repeat center 65px fixed, 
+              url("/assets/images/background.png") no-repeat center center fixed;
+}

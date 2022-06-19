@@ -1,0 +1,40 @@
+.header {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+
+  &__right {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    color: #ffffff;
+    img {
+      width: 40px;
+      height: 40px;
+      margin-right: 1rem;
+    }
+
+    &-texts{
+      display: flex;
+      flex-direction: column;
+      &--big {
+        font-weight: 500;
+        font-size: 1.1rem;
+      }
+
+      &--small {
+        font-size: .7rem;
+        color: rgba(255, 255, 255, 0.6);
+      }
+    }
+  }
+}
+
+@media all and (min-width: 768px){
+  .header {
+
+  }
+}
