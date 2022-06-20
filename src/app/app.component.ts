@@ -7,5 +7,6 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class AppComponent {
-  title = 'teamapt-landing';
+  public readonly title: string = 'teamapt-landing';
+  public readonly buttonText: string = 'Play The Game'
 }
