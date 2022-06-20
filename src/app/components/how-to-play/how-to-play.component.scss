@@ -2,7 +2,7 @@
   font-family: 'Inter', sans-serif;
   font-style: normal;
   padding: 1rem 2rem;
-  width: 420px;
+  width: 25vw;
   margin: 2rem auto;
   color: white;
   font-size: .8rem;
@@ -19,5 +19,30 @@
 
   &__list {
     margin: 1rem auto;
+  }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width:768px) {
+  .how-to-play {
+    width: 70vw;
+  }
+}
+
+@media only screen and (max-width:480px) {
+  .how-to-play {
+    width: unset;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px){
+  .how-to-play {
+    width: 60vw;
+  }
+}
+
+@media all and (min-width: 991px) and (max-width:1420px){
+  .how-to-play {
+    width: 40vw;
   }
 }

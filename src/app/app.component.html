@@ -1,15 +1,23 @@
 <div class="campaign-landing">
   <app-header></app-header>
-  <div class="campaign-landing__title">
-    <p class="campaign-landing__title--light">Unlock to</p>
+  <div class="campaign-landing__title fade-in-bottom hide-mobile">
+    <p class="campaign-landing__title--light">Unlock to </p>
     <p class="campaign-landing__title--bold">Power your dreams!</p>
   </div>
-  <div class="campaign-landing__description">
+  <div class="campaign-landing__title fade-in-bottom show-mobile">
+    <span class="campaign-landing__title--light">Unlock to {{" "}}</span>
+    <span class="campaign-landing__title--bold">Power <br> your dreams!</span>
+  </div>
+  <div class="campaign-landing__description fade-in-bottom">
     <p>Stand a chance to win</p>
     <p class=""><strong>N3,000,000</strong> everyday for the next 5 days</p>
   </div>
   <app-how-to-play></app-how-to-play>
-  <app-button [text]="buttonText"></app-button>
+  <app-button [text]="buttonText" class="fade-in-bottom"></app-button>
+  <div class="campaign-landing__beam"></div>
+  <div class="campaign-landing__pot fade-in-bottom">
+    <img src="/assets/images/coin_pot.svg" alt="pot">
+  </div>
   <div class="campaign-landing__coins">
     <img class="campaign-landing__coins-left" src="/assets/images/coin_left.png" alt="left coin">
     <img class="campaign-landing__coins-right" src="/assets/images/coin_right.png" alt="right coin">
